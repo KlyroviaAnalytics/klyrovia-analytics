@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import Card from "../components/Card";
 import { Globe } from "../components/globe"; // ✅ lowercase 'g'
-import { Frameworks } from "../components/frameworks"; // ✅ lowercase 'f'
+import { Frameworks } from "../components/Frameworks"; // ✅ lowercase 'f'
 
 const About = () => {
   const grid2Container = useRef();
