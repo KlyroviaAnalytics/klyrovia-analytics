@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import Card from "../components/Card";
-import { Globe } from "../components/Globe";
-import { Frameworks } from "../components/frameworks"; // ✅ match filename exactly
+import { Globe } from "../components/globe"; // ✅ lowercase 'g'
+import { Frameworks } from "../components/frameworks"; // ✅ lowercase 'f'
 
 const About = () => {
   const grid2Container = useRef();
@@ -51,7 +51,7 @@ const About = () => {
           </figure>
         </div>
 
-        {/* Grid 4 - LinkedIn Button */}
+        {/* Grid 4 - LinkedIn CTA */}
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
             <p className="text-center headtext">
