@@ -1,5 +1,5 @@
 import HeroText from "../components/HeroText";
-import parallaxBackground from "../components/parallaxBackground"; // ✅ match file casing here
+import ParallaxBackground from "../components/parallaxBackground"; // ✅ Correct casing
 import { Particles } from "../components/Particles";
 
 const Hero = () => {
@@ -8,8 +8,8 @@ const Hero = () => {
       {/* Background Particles */}
       <Particles />
 
-      {/* Optional Parallax Layer */}
-      <parallaxBackground />
+      {/* Parallax Background */}
+      <ParallaxBackground />
 
       {/* Hero Text */}
       <HeroText />
