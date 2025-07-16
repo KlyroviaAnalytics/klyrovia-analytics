@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import Card from "../components/Card";
-import { Globe } from "../components/globe";
-import { Frameworks } from "../components/FrameWorks";
+import { Globe } from "../components/Globe";
+import { Frameworks } from "../components/frameworks"; // ✅ match filename exactly
 
 const About = () => {
   const grid2Container = useRef();
