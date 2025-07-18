@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth; /* <-- THIS makes ALL anchor-links smooth! */
+}
+
 @theme {
   --color-primary: #030412;
   --color-midnight: #06091f;
@@ -51,10 +56,10 @@ body {
   background: #030412;
   font-family: "Funnel Display", sans-serif;
   color: white;
-  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
+/* Spacing, Typography, Utilities */
 .c-space {
   @apply sm:px-10 px-5 lg:px-15;
 }
@@ -91,6 +96,7 @@ body {
 .nav-link {
   @apply text-lg md:text-base hover:text-white transition-colors;
 }
+
 /* Button Components */
 .btn {
   @apply relative px-1 py-4 text-sm text-center rounded-full font-extralight bg-primary w-[12rem] cursor-pointer overflow-hidden;
