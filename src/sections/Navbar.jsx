@@ -11,6 +11,9 @@ function Navigation() {
         <a className="nav-link" href="#about">About</a>
       </li>
       <li className="nav-li">
+        <a className="nav-link" href="#capabilities">Capabilities</a>
+      </li>
+      <li className="nav-li">
         <a className="nav-link" href="#work">Work</a>
       </li>
       <li className="nav-li">
@@ -19,6 +22,7 @@ function Navigation() {
     </ul>
   );
 }
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
