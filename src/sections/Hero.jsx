@@ -5,7 +5,7 @@ import { Particles } from "../components/Particles";
 const Hero = () => {
   return (
     <section
-      id="home"  // <-- ANCHOR ID ADDED!
+      id="home"
       className="relative flex items-center justify-center min-h-screen overflow-hidden md:justify-start md:items-start c-space"
     >
       {/* Background Particles */}
