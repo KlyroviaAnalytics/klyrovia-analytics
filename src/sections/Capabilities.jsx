@@ -2,6 +2,7 @@ import React from "react";
 
 const Capabilities = () => (
   <section
+    id="capabilities"
     className="relative py-12 px-6 sm:px-12 my-10 rounded-3xl overflow-hidden max-w-4xl mx-auto bg-gradient-to-br from-[#141e30] via-[#243b55] to-[#0f2027] shadow-2xl border-[1.5px] border-white/20 backdrop-blur-xl"
     style={{
       boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
