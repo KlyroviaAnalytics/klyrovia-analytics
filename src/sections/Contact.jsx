@@ -32,7 +32,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/klyrovia-analytics"
+            href="https://www.linkedin.com/company/klyrovia-analytics/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 text-base font-semibold text-white transition-all duration-200 rounded-lg bg-gradient-to-r from-indigo-600 to-purple-700 shadow-md hover:scale-105 hover:shadow-purple-500/30"
