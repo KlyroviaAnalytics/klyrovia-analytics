@@ -58,7 +58,7 @@ const About = () => {
               Ready to collaborate on impactful data solutions?
             </p>
             <a
-              href="https://www.linkedin.com/in/klyrovia-analytics"
+              href="https://www.linkedin.com/company/klyrovia-analytics/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 text-white bg-indigo-600 hover:bg-indigo-700 rounded-full transition-all font-medium"
